@@ -1,0 +1,72 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(20, 169, 189);
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(7, 6.51vmax);
+  grid-template-rows: repeat(6, 6.51vmax);
+}
+
+.grid-container {
+  box-shadow: 1px -1px rgb(22, 40, 121),
+              2px -2px rgb(22, 40, 121),
+              3px -3px rgb(22, 40, 121),
+              4px -4px rgb(22, 40, 121),
+              5px -5px rgb(22, 40, 121),
+              6px -6px rgb(22, 40, 121),
+              7px -7px rgb(22, 40, 121),
+              8px -8px rgb(22, 40, 121),
+              9px -9px rgb(22, 40, 121),
+              10px -10px rgb(22, 40, 121),
+              11px -11px rgb(22, 40, 121),
+              12px -12px rgb(22, 40, 121),
+              13px -13px rgb(22, 40, 121),
+              14px -14px rgb(22, 40, 121),
+              15px -15px rgb(22, 40, 121),
+              16px -16px rgb(22, 40, 121),
+              17px -17px rgb(22, 40, 121);
+}
+
+.grid-container2 {
+  border: 10px solid red;
+  border-style: groove;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.piece {
+  height: 125px;
+  width: 125px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
